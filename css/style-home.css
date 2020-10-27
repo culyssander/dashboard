@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto' ,sans-serif;
+    background: #F4F6F9;
+}
+
+#menuLateral{
+    background: #fff;
+    width: 280px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    box-shadow: 0px 0.2px 5px #595959;
+}
+
+#menuLateral  div{
+    text-align: center;
+}
+
+#menuLateral  .logo {
+    width: 210px;
+    padding-left: 50px;
+}
+
+#menuLateral div img{
+    border-radius: 50%;
+    width: 140px;
+
+}
+
+#menuLateral nav a{
+    display: block;
+    color: #595959;
+    padding: 15px 30px;
+    font-weight: 300;
+    transition: 0.3s ease-in-out;
+}
+
+#menuLateral nav a .fa{
+    color: #595959;
+    font-size: 1.4rem;
+    margin-right: 0.8rem;
+    display: inline-block;
+    width: 30px;
+    position: relative;
+    top: 2px;
+}
+
+#menuLateral nav a:hover{
+    background: #9BDAF2;
+    border-left: 5px solid #38BDF2;
+    color: #fff;
+}
+#menuLateral nav a:hover .fa{
+    color: #38BDF2;
+}
+
+#menuLateral nav .activo .fa{
+    color: #38BDF2;
+}
+
+#menuLateral nav .activo{
+    background: #9BDAF2;
+    border-left: 5px solid #38BDF2;
+    color: #fff;
+}
+
+.cabecalho{
+    margin-left: 280px;
+    padding: 5px 0px 0px 10px;
+    background: #fff;
+    bottom: 0px;
+}
+
+.bemVindo{
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: 0px;
+}
+
+.cabecalho input{
+    background: transparent;
+    font-size: 1.1rem;
+    color: #38BDF2;
+    padding: 8px;
+    font-weight: 400;  
+    transition: all 0.5s ease-in-out;
+    width: 90%;
+    border: none;
+}
+
+.cabecalho input:hover{
+    background: #F2F2F2;
+}
+
+.cabecalho .pesquisar {
+    display: inline-block;
+    border-radius: 2%;
+    width: 70%;
+}
+.cabecalho .pesquisar .fa-search{
+    font-size: 25px;
+}
+.cabecalho .pesquisar:hover .fa{
+    color: #38BDF2;
+}
+
+.cabecalho .notificacao{
+    display: inline-block;
+    padding: 10px;
+    float: right;
+}
+
+.cabecalho .notificacao a{
+    display: inline-block;
+    padding-right: 15px;
+    text-decoration: none;
+    height: 20px;
+    color: #595959; 
+    margin-right: 4px; 
+    vertical-align: top;
+    height: -10px;
+} 
+
+.cabecalho .notificacao .sino{
+    position: relative;
+    font-size: 20px;
+}
+
+.cabecalho .notificacao .circulo{
+    display: inline-block;
+    background: #38BDF2;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: -1px;
+    right: 12px;
+}
+
+.cabecalho .notificacao .chat{
+    position: relative;
+    font-size: 20px;
+}
+
+.cabecalho .notificacao .circuloChat{
+    display: inline-block;
+    background: #38BDF2;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: -2px;
+    right: 8px;
+}
+
+.cabecalho .notificacao .fa-caret-down{
+    position: relative;
+    top: -10px;
+    right: 12px;
+}
+
+/* .notificacaoMenu{
+    display: none;
+} */
+
+/* .notificacaoMenu{
+    position: absolute;
+    border: 1px solid #595959;
+    box-shadow: 0px 0.2px 5px #595959;
+    
+}
+
+.cabecalho .notificacaoMenu a{
+    display: block;
+    padding: 5px;
+    color: #595959;
+} */
+
+.userImg{
+    background: url(/img/foto.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+#corpoPrincipal{
+    background: #F4F6F9;
+    margin-left: 290px;
+    padding: 10px;
+    width: 84%;
+}
+
+.rodape{
+    margin-left: 280px;
+    text-align: center;
+    padding: 10px;
+    bottom: 0px;
+    position: absolute;
+    width: 85%;
+}
+
+#botaoPrincipal{
+    background: #38BDF2;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+}
+
+/* padrao para os artigos */
+#artigo{
+    padding: 20px;
+}
+
+#artigo div{
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+}
+
+#imprimir{
+    float: right;
+}
+
+.campoPesquisarArtigo{
+    background: transparent;
+    font-size: 1.3rem;
+    color: #38BDF2;
+    padding: 4px;
+    font-weight: 400;  
+    transition: all 0.5s ease-in-out;
+    width:60%;
+}
+
+.campoPesquisarArtigo:hover{
+    background: #F2F2F2;
+    border-radius: 5%;
+}
